@@ -1,1 +1,136 @@
-/* Write your CSS here */
+.app-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.app-img-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-timer {
+  background-color: #ffffff;
+  border-radius: 60px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-text {
+  color: #00d9f5;
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.running-paused-text {
+  color: #0f172a;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.start-pause-reset-container {
+  display: flex;
+}
+
+.start-pause-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.startPauseBtn {
+  border: none;
+  background: transparent;
+}
+
+.start-pause-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 7px;
+}
+
+.start-pause-text {
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.reset-container {
+  display: flex;
+  align-items: center;
+}
+
+.reset-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 7px;
+}
+
+.reset-text {
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-limit-title {
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.timer-setting-container {
+}
+
+.operator-btn {
+  color: #1e293b;
+  font-size: 40px;
+  border: none;
+  background: transparent;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.time-btn {
+  border: none;
+  background-image: linear-gradient(to right, #45f5ba, #00d9f5);
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
